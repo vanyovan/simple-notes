@@ -11,7 +11,8 @@ npm start
 after that, hit endpoint using postman to login.
 
 ## Login
-If you want to use the authorization, after login copy that token and send it to header with this parameter
+If you want to use the authorization, after login copy that token and send it to header with auth-token parameter
 ```bash
-auth-token (token)
+key: auth-token 
+value: (token when you login)
 ```
