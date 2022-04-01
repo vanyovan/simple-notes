@@ -9,3 +9,9 @@ After ensure mongodb is running, run this on terminal
 npm start
 ```
 after that, hit endpoint using postman to login.
+
+## Login
+If you want to use the authorization, after login copy that token and send it to header with this parameter
+```bash
+auth-token (token)
+```
