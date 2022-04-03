@@ -28,7 +28,7 @@ router.post("/", verify, async (req, res) => {
 router.put("/", verify, async (req, res) => {
   const userLogin = await User.findOne({ _id: req.user._id });
   const notesList = await Notes.findOne().sort({
-    id: "-1",
+    _id: "-1",
   });
   const id = !notesList ? 1 : parseInt(notesList.id) + 1;
 
